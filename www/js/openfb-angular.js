@@ -53,7 +53,6 @@ angular.module('openfb', [])
          * @param fbScope - The set of Facebook permissions requested
          */
         function login(fbScope) {
-
             if (!fbAppId) {
                 return error({error: 'Facebook App Id not set.'});
             }
